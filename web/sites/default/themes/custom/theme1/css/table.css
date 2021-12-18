@@ -1,0 +1,183 @@
+/*Адаптивная таблица*/
+.oo .wrap_table {
+    overflow: auto;
+    max-width: 2000px;
+}
+
+table {
+    
+    /*word-break: break-all; */
+    background: #fff;
+}
+
+td, th {
+    padding: 10px;
+    border: 1px solid #bbb;
+} 
+
+/* для всех шаблонов */
+.tp-1, .tp-2, .tp-3, .tp-4,
+.tp-5, .tp-6, .tp-7, .tp-8,
+.tp-9, .tp-10, .tp-11, .tp-11, .tp-12, .tp-12, .tp-13 {
+  text-align: center;
+  color: #5e5e5e;
+}
+
+.tp-1 a, .tp-2 a, .tp-3 a, .tp-4 a,
+.tp-5 a, .tp-6 a, .tp-7 a, .tp-8 a,
+.tp-9 a, .tp-10 a, .tp-11 a, .tp-11 a, .tp-12 a, .tp-12 a {
+  color: #5e5e5e;
+  text-decoration: underline;
+}
+
+.tp-1 a:hover, .tp-2 a:hover, .tp-3 a:hover, .tp-4 a:hover,
+.tp-5 a:hover, .tp-6 a:hover, .tp-7 a:hover, .tp-8 a:hover,
+.tp-9 a:hover, .tp-10 a:hover, .tp-11 a:hover, .tp-11 a:hover, .tp-12 a:hover, .tp-12 a:hover {
+  color: #111111;
+}
+
+.table-1 {
+  max-width: 750px;
+  width: 100%;
+  margin-bottom: 50px;
+  border-collapse: collapse;
+  border: 1px solid;
+  border-color: #c7c7c7;
+  background-color: #fffefe;
+  table-layout: fixed;
+}
+
+.table-1 thead {
+  background-color: #e7e6e6;
+}
+
+.table-1 thead td {
+  font-weight: bold;
+  text-align: center;
+}
+
+.table-1 tbody tr:nth-child(odd) {
+  background-color: #fcfbfc;
+}
+
+.table-1 tbody tr:nth-child(even) {
+  background-color: #fcfbfc;
+}
+
+.table-1 td:nth-child(1) {
+  width: 50%;
+}
+
+.table-1 td:nth-child(2) {
+  width: 50%;
+}
+
+.table-1 td {
+  border-width: 1px;
+  border-style: inset;
+  padding: 15px;
+}
+
+.table-3 {
+  margin-bottom: 50px;
+  border-width: 1px;
+  /*   &__contact {
+    font-size: 14px;
+    @media (max-width: 471px) {
+      display: none;
+    }
+   } */
+}
+
+.table-3 td {
+  border-width: 1px;
+  border-style: inset;
+  padding: 8px;
+}
+
+.table-3 td:nth-child(1) {
+  width: 40%;
+}
+
+.table-3 td:nth-child(2) {
+  width: 25%;
+}
+
+.table-3 td:nth-child(3) {
+  width: 25%;
+}
+
+.table-3 td:nth-child(4) {
+  width: 20%;
+}
+
+.table-4 td:nth-child(1) {
+  width: 25%;
+}
+
+.table-4 td:nth-child(2) {
+  width: 20%;
+}
+
+.table-4 td:nth-child(3) {
+  width: 20%;
+}
+
+.table-4 td:nth-child(4) {
+  width: 20%;
+}
+
+.table-4 td:nth-child(5) {
+  width: 20%;
+}
+
+.table-5 td {
+  width: 50%;
+}
+
+.borderless {
+  border: 0px;
+}
+
+.borderless td {
+  border-width: 0px;
+}
+
+/* tp-10 */
+#fin-2 tr:nth-child(odd) {
+  font-weight: bold;
+}
+
+#fin-2 td {
+  text-align: center;
+}
+
+/* tp-11 */
+#vacant-1 td {
+  text-align: center;
+}
+
+#vacant-2 td {
+  text-align: center;
+}
+
+#vacant-1.table-1 {
+  max-width: 475px;
+}
+
+#vacant-2 tr:nth-child(even) {
+  font-weight: bold;
+  text-align: center;
+}
+
+.tp-11 h5 {
+  max-width: 450px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+/* tp-12 */
+#env-1 tr:nth-child(odd) {
+  font-weight: bold;
+  text-align: center;
+}

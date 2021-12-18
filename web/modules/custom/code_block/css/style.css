@@ -1,0 +1,8 @@
+/* скрывает ссылку на скачивание файла в ФЗ 1.6 */
+#link-aducation-file {
+  display: none;
+}
+
+.adminimal-admin-toolbar #link-aducation-file {
+  display: block;
+}

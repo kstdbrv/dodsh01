@@ -1,0 +1,16 @@
+visually_impaired:
+  version: 1.x
+  css:
+    base:
+      css/bvi.min.css: {}
+      css/bvi-font.min.css: {}
+  js:
+    js/custom.js: {}
+    js/responsivevoice.min.js: {}
+    js/js.cookie.min.js: {}
+    js/bvi-init.js: {}
+    js/bvi.js: {}
+
+
+  dependencies:
+    - core/jquery

@@ -1,0 +1,93 @@
+
+.search-vue {
+  width: 100%;
+  position: relative;
+  &__form {
+    width: 100%;
+    z-index: 50;
+    display: flex;
+    height: 32px;
+  }
+  &__input {
+    width: 25%;
+    padding: 5px 5px 5px 55px;
+    outline: none;
+    border: none;
+    background-color: #569797;
+    color: #fff;
+    transition: all .5s;
+    &::placeholder {
+      color: #fff;
+      opacity: 0.5;
+    }
+    &:focus {
+      width: 100%;
+      box-shadow: inset 0px 5px 4px rgba(59, 59, 59, 0.3);
+    }
+    @media (max-width: 795px) {
+      width: 45%;
+    }
+    &::-ms-clear {
+      display: none;
+   }
+  }
+  
+  button {
+    cursor: pointer;
+    height: inherit;
+    width: 45px;
+    position: absolute;
+    background-color: #8ccaca;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 0px;
+    top: 0px;
+    outline: none;
+    border: none;
+  }
+
+  &__submit {
+    background-size: 60%;
+    background-image: url('./icons/search.svg');
+  }
+
+  &__clear {
+    display: none;
+    background-size: 80%;
+    background-image: url('./icons/clear.svg');
+  }
+
+  &__form_has-results {
+    box-shadow: none;
+  }
+
+  &__results {
+    position: absolute;
+    z-index: 40;
+    top: 32px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #a7a6a6;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+  }
+
+  &__result {
+    padding: 8px 16px;
+    color: #000;
+    display: block;
+    &:hover {
+      background-color: #8ccaca;
+    }
+    &:last-child {
+      border-bottom: unset;
+    }
+  }
+}
+
+
+
+
+
+
+
